@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sizing unit in css</title>
+    <style>
+        .box {
+            width: 1520px;
+            border: 2px solid black;
+            background-color: aqua;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .box2 {
+            width: 80vw;
+            height: 40vh;
+            border: 2px solid black;
+            margin: 23px auto;
+            background-color: aqua;
+            min-height: 80vh;
+        }
+
+
+        .box3 {
+            font-size: 14px;
+            border: 2px solid black;
+            margin: auto;
+            background-color: antiquewhite;
+        }
+
+        .hlo {
+            /*font-size: 2em;*/
+            font-size: 2rem;
+            width: 50%;
+            border: 2px solid black;
+        }
+
+        .box3>div >div{
+
+            width: 50%;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        nav bar
+    </div>
+
+    <div class="box2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis consectetur, facilis cupiditate
+        provident nam consequatur iure quaerat corporis? Dignissimos numquam cumque at laboriosam officia dolor
+        veritatis soluta sunt perspiciatis, molestias harum natus odio quod excepturi quis commodi quos veniam ea
+        deserunt! Debitis, delectus ullam a molestias, exercitationem, quidem corporis mollitia ad assumenda dignissimos
+        eum ipsa?
+    </div>
+
+    <div class="box3">
+        hello
+
+        <div class="hlo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo dignissimos, aliquid rerum debitis quia dicta
+            delectus nulla deserunt reprehenderit soluta ea aspernatur impedit sapiente vero, excepturi sequi error
+            perferendis repudiandae saepe similique vel numquam voluptatem voluptas ab. Excepturi vero aspernatur modi
+            esse animi? Tempora incidunt placeat voluptatum! Aliquam, recusandae eveniet. Necessitatibus repudiandae
+            magni cum commodi?
+
+
+            <div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi harum unde natus, ipsam soluta commodi
+                ducimus eveniet aspernatur ipsum et.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
